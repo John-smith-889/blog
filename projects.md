@@ -4,7 +4,33 @@ title: Projects
 ---
 
 <div style="line-height:20%;"> <br> </div>
-## 1. Exploratory Data Analysis of Movies Data in Python
+## 1. Housing Prices Modelling in Python
+
+<span style="color:darkblue"> <em>Python, numpy, pandas, scikit-learn, xgboost, matplotlib, seaborn</em></span>
+
+#### Project description:
+
+The aim of the project is to analyze data and build model to predict housing prices. Project is based on dataset accessible on Kaggle.com [here](https://www.kaggle.com/harlfoxem/housesalesprediction). Dataset contains information on sold houses in King County (including Seattle) between May 2014 and May 2015. Variables include date of sale, price, number of beedrooms, number of beedrooms, floor area, and more.
+
+Project contains Jupyter Notebook file named "housing_case.ipynb" with:
+* Data exploration <br>
+* Feature engineering <br>
+* Data modelling <br>
+* Models evaluation <br>
+* Choosen model optimization <br>
+
+#### To do:
+* Experiment with Artificial Neural Networks <br>
+* Modify variables with binning and include date of sale as a explanatory variable <br>
+* Experiment with more efficient metaheuristics during hyperparameters optimization <br>
+
+
+#### Check more:
+[Link to Github](https://github.com/John-smith-889/housing-prices-modelling)
+
+<br>
+
+## 2. Exploratory Data Analysis of Movies Data in Python
 
 <span style="color:darkblue"> <em>Python, numpy, pandas, matplotlib</em></span>
 
@@ -29,7 +55,7 @@ Project contains Jupyter Notebook file named "movies_case_eda.ipynb" with:
 <br>
 
 
-## 2. Credit Scoring in R    
+## 3. Credit Scoring in R    
 
 <span style="color:darkblue"> <em> R, MXNetR, dplyr, scorecard, corrplot, fastDummies </em></span>
 
@@ -55,7 +81,7 @@ In credit scoring part following activities were done:
 <br>
 
 
-## 3. Migrations in Europe Visualization in Shiny App    
+## 4. Migrations in Europe Visualization in Shiny App    
 
 <span style="color:darkblue"> <em> R, Shiny, googleCharts, magrittr, devtools </em></span>
 
@@ -80,13 +106,14 @@ In the chart it is possible to discover:
 
 
 Last but not least...
-## 4. Jekyll Blog About Data Science Deployed on GitHub Pages 
+## 5. Jekyll Blog About Data Science Deployed on GitHub Pages 
 
 <span style="color:darkblue"> <em>Ruby, html, css</em></span>
 
 #### Project description:
 
-Ruby framework Jekyll with its Lanyon theme were used to create this blog. A few features had been added to personalize blog, including:
+The aim of the project is to build blog for posting technical issues associated with data science and software engineering.
+Ruby framework Jekyll with its Lanyon theme were used to create this blog. Posts presented on blog incorporate social network analysis, devops and more. A few features had been added to personalize blog, including:
 * Archive 
 * Categories
 * Social media icons
@@ -96,6 +123,8 @@ Ruby framework Jekyll with its Lanyon theme were used to create this blog. A few
 * Long code snippets rolling
 * Footer
 * Post layout modification
+* Disqus integration
+* Google Analytics integration
 
 #### To do:
 * Upgrade categories and tags system

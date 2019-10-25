@@ -137,7 +137,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 	font_size=14)
 ```
 
-
+&nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
 ![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_12_0.png)
 
 
