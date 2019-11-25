@@ -337,6 +337,11 @@ or
 *italicized text*
 
 
+<br> 
+### Italicization + align attribute
+<p align="right">  <i> Source: NASA </i> </p>
+
+
 <br>
 ### Abbreviations
 <abbr title="HyperText Markup Langage">HTML</abbr>
