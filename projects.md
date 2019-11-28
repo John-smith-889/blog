@@ -4,7 +4,55 @@ title: Projects
 ---
 
 <div style="line-height:20%;"> <br> </div>
-## 1. Housing Prices Modelling in Python
+## 1. Difpy - Python Package for Information Diffusion Investigation in Social Networks
+
+<span style="color:darkblue"> <em>Python, numpy, networkx, matplotlib </em></span>
+
+<div align="center" style="width:auto; margin: 0px 0px 0px 0px; auto;" >
+  <img src="assets/difpy_logo.png" width="30%" height="30%">
+</div>
+#### Project description:
+
+The aim of the project is to build python package useful to investigate information diffusion in social networks.
+DifPy is in early development stage. MIT licence.
+
+Project contains necessary package files including initiatialize.py module with functions for:
+* Create random graph ready to simulation performance <br>
+* Adjust existing graph <br>
+* Add manually features to graph nodes <br>
+* Visualize graph with information spread view <br>
+* Extract graph statistics <br>
+
+#### Requirements:
+DifPy is based mostly on NumPy, NetworkX, Matplotlib libraries. Also contemporary version of Python 3.7 + is needed. It works well in 2019.03 Anaconda environment.
+
+#### Installation:
+DifPy is available directly from the Github repository. To install DifPy, git installed on your local machine is needed. 
+
+You may install DifPy on your local machine with the line below:
+
+```sh
+$ pip install git+git://github.com/John-smith-889/difpy.git
+```
+And import with the line below:
+```python
+import difpy as dp
+```
+
+
+#### To do:
+* Simulation module <br>
+* Optimization module <br>
+* Modelling and feature importance module <br>
+* Examples of code usage <br>
+* Extended documentation <br>
+
+
+#### Check more:
+[Link to Github](https://github.com/John-smith-889/difpy)
+
+<br>
+## 2. Housing Prices Modelling in Python
 
 <span style="color:darkblue"> <em>Python, numpy, pandas, scikit-learn, xgboost, matplotlib, seaborn</em></span>
 
@@ -30,7 +78,7 @@ Project contains Jupyter Notebook file named "housing_case.ipynb" with:
 
 <br>
 
-## 2. Exploratory Data Analysis of Movies Data in Python
+## 3. Exploratory Data Analysis of Movies Data in Python
 
 <span style="color:darkblue"> <em>Python, numpy, pandas, matplotlib</em></span>
 
@@ -55,7 +103,7 @@ Project contains Jupyter Notebook file named "movies_case_eda.ipynb" with:
 <br>
 
 
-## 3. Credit Scoring in R    
+## 4. Credit Scoring in R    
 
 <span style="color:darkblue"> <em> R, MXNetR, dplyr, scorecard, corrplot, fastDummies </em></span>
 
@@ -81,7 +129,7 @@ In credit scoring part following activities were done:
 <br>
 
 
-## 4. Migrations in Europe Visualization in Shiny App    
+## 5. Migrations in Europe Visualization in Shiny App    
 
 <span style="color:darkblue"> <em> R, Shiny, googleCharts, magrittr, devtools </em></span>
 
@@ -106,7 +154,7 @@ In the chart it is possible to discover:
 
 
 Last but not least...
-## 5. Jekyll Blog About Data Science Deployed on GitHub Pages 
+## 6. Jekyll Blog About Data Science Deployed on GitHub Pages 
 
 <span style="color:darkblue"> <em>Ruby, html, css</em></span>
 
