@@ -16,12 +16,30 @@ title: Projects
 The aim of the project is to build python package useful to investigate information diffusion in social networks.
 DifPy is in early development stage. MIT licence.
 
-Project contains necessary package files including initiatialize.py module with functions for:
+Project contains modules with following features:
+
+**initiatialize.py**
+
 * Create random graph ready to simulation performance <br>
 * Adjust existing graph <br>
 * Add manually features to graph nodes <br>
 * Visualize graph with information spread view <br>
 * Extract graph statistics <br>
+
+**simulate.py**
+* perform one simulation step 
+* perform whole simulation  
+* perform simulation sequence with statistics computation  
+
+**optimize.py**
+* compute centrality for all nodes and return n nodes with best scores <br>
+* perform simulation for given nodes set size with random search method and return n nodes' sets with best diffusion capability <br>
+
+
+**feature_importance.py**
+* Compute importance of nodes' features due to nodes information diffusion capability <br>
+ 
+Basic information about functions usage you may read in functions docstrings.
 
 #### Requirements:
 DifPy is based mostly on NumPy, NetworkX, Matplotlib libraries. Also contemporary version of Python 3.7 + is needed. It works well in 2019.03 Anaconda environment.
@@ -39,11 +57,12 @@ And import with the line below:
 import difpy as dp
 ```
 
-
 #### To do:
-* Simulation module <br>
-* Optimization module <br>
-* Modelling and feature importance module <br>
+* Additional optimization metaheuristics functions <br>
+* Additional methods of computing diffusion speed <br>
+* Implement paralell computing for better performance <br>
+* Extend unit tests fot better code coverage <br>
+* Test big size networks 1 million + nodes <br>
 * Examples of code usage <br>
 * Extended documentation <br>
 
