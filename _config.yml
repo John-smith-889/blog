@@ -39,3 +39,9 @@ disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
     shortname: john-smith-889-github-io
+    
+# Not needed now - for latex at the moment is used mathjax only
+#markdown: kramdown
+#kramdown:
+#   math_engine: mathjax
+   
