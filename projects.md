@@ -70,6 +70,21 @@ import difpy as dp
 #### Check more:
 [Link to Github](https://github.com/John-smith-889/difpy)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 ## 2. Housing Prices Modelling in Python
 
@@ -77,26 +92,59 @@ import difpy as dp
 
 #### Project description:
 
-The aim of the project is to analyze data and build model to predict housing prices. Project is based on dataset accessible on Kaggle.com [here](https://www.kaggle.com/harlfoxem/housesalesprediction). Dataset contains information on sold houses in King County (including Seattle) between May 2014 and May 2015. Variables include date of sale, price, number of beedrooms, number of beedrooms, floor area, and more.
+The aim of the project is to analyze data and build model to predict housing prices. 
+Project is based on dataset accessible on Kaggle.com [here](https://www.kaggle.com/harlfoxem/housesalesprediction). 
+Dataset contains information on sold houses in King County (including Seattle) between May 2014 and May 2015. 
+Variables include date of sale, price, number of beedrooms, number of beedrooms, floor area, and more.
 
-Project contains Jupyter Notebook file named "housing_case.ipynb" with:
+Project contains a few Jupyter notebooks files, and each is based on following sections: 
 * Data exploration <br>
-* Feature engineering <br>
+* Data preparation <br>
 * Data modelling <br>
 * Models evaluation <br>
 * Choosen model optimization <br>
 
+
+Notebook named "housing_case.ipynb" is a first version of the notebook in which regression problem
+of prediction each house price is solved. Results of a few algorithms are juxtaposed, where the best performance has XGBoost.
+
+In further notebooks we operate on modified dataset. Variable 'price_bin' is constructed with values 0 and 1. 
+Value of 0 means certain house is <= \$1 mln worth, value 1 means it is > \$1 mln worth. 
+The rest of variables stay the same.
+
+Notebook housing_case_2_reg.ipynb is the improved version of previous one. 
+It has more expanded explanation of taking steps and results analysis, 
+although the same algorithms are used. 
+
+In the notebook housing_case_2_cls.ipynb problem of classification is approached. 
+Variable 'price_bin' with values 0 and 1 is treated as target variable, and 
+other variables (excluding 'price' variable - prices of houses) are treated as explanatory variables. 
+Classificator version of XGBoost algorithm is used to perform binary classification.
+
+In notebook housing_case_2_reg_MLP.ipynb the problem of regression is considered. 
+Solution is prepared with Scikit-learn Multilayer Perceptron (MLP) implementation, a genre of Artificial Neural Network.
+
+
 #### To do:
-* Experiment with Artificial Neural Networks <br>
-* Modify variables with binning and include date of sale as a explanatory variable <br>
+* \/ Experiment with Artificial Neural Networks <br>
+* \/ Modify variables with binning and include date of sale as a explanatory variable <br>
 * Experiment with more efficient metaheuristics during hyperparameters optimization <br>
 
 
 #### Check more:
 [Link to Github](https://github.com/John-smith-889/housing-prices-modelling)
 
-<br>
 
+
+
+
+
+
+
+
+
+
+<br>
 ## 3. Exploratory Data Analysis of Movies Data in Python
 
 <span style="color:darkblue"> <em>Python, numpy, pandas, matplotlib</em></span>
@@ -119,9 +167,16 @@ Project contains Jupyter Notebook file named "movies_case_eda.ipynb" with:
 #### Check more:
 [Link to Github](https://github.com/John-smith-889/movies_data_analysis)
 
+
+
+
+
+
+
+
+
+
 <br>
-
-
 ## 4. Credit Scoring in R    
 
 <span style="color:darkblue"> <em> R, MXNetR, dplyr, scorecard, corrplot, fastDummies </em></span>
@@ -145,9 +200,19 @@ In credit scoring part following activities were done:
 
 [Link to Github](https://github.com/John-smith-889/Credit-scoring-case-study-2019)
 
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
-
-
 ## 5. Migrations in Europe Visualization in Shiny App    
 
 <span style="color:darkblue"> <em> R, Shiny, googleCharts, magrittr, devtools </em></span>
@@ -168,9 +233,20 @@ In the chart it is possible to discover:
 
 [Link to Github](https://github.com/John-smith-889/Shiny-migrations-europe-bubblechart)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
-
-
 
 Last but not least...
 ## 6. Jekyll Blog About Data Science Deployed on GitHub Pages 
@@ -180,9 +256,10 @@ Last but not least...
 #### Project description:
 
 The aim of the project is to build blog for posting technical issues associated with data science and software engineering.
-Ruby framework Jekyll with its Lanyon theme were used to create this blog. Posts presented on blog incorporate social network analysis, devops and more. A few features had been added to personalize blog, including:
-* Archive 
-* Categories
+Ruby framework Jekyll with its Lanyon theme were used to create this blog. 
+Posts presented on blog incorporate social network analysis, devops and more. 
+A few features have been added to personalize blog, including:
+* Logo
 * Social media icons
 * Code font modificiation
 * Code highlighting modification
@@ -190,6 +267,8 @@ Ruby framework Jekyll with its Lanyon theme were used to create this blog. Posts
 * Long code snippets rolling
 * Footer
 * Post layout modification
+* Archive 
+* Categories
 * Disqus integration
 * Google Analytics integration
 
@@ -205,5 +284,4 @@ Ruby framework Jekyll with its Lanyon theme were used to create this blog. Posts
 <br>
 
 
-<center>To be continued... </center>
-
+<center> To be continued... </center>
