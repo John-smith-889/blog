@@ -251,14 +251,16 @@ In the chart it is possible to discover:
 Last but not least...
 ## 6. Jekyll Blog About Data Science Deployed on GitHub Pages 
 
-<span style="color:darkblue"> <em>Ruby, html, css</em></span>
+<span style="color:darkblue"> <em>Ruby, html, css, javascript </em></span>
 
 #### Project description:
 
 The aim of the project is to build blog for posting technical issues associated with data science and software engineering.
+Posts presented on blog include topics associated with Python, social network analysis, devops, space industry and more. 
+
 Ruby framework Jekyll with its Lanyon theme were used to create this blog. 
-Posts presented on blog incorporate social network analysis, devops and more. 
 A few features have been added to personalize blog, including:
+
 * Logo
 * Social media icons
 * Code font modificiation
