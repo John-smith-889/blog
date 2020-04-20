@@ -82,11 +82,61 @@ import difpy as dp
 
 
 
+<br>
+## 2. Numbers' images classification
+
+<span style="color:darkblue"> <em>Python, numpy, tensorflow, keras, scikit-learn, matplotlib </em></span>
+
+#### Project description:
+
+The aim of the project is to predict if number on an image is prime or composite.  
+The model used in the project is Multilayer Perceptron (MLP), a kind of Artificial Neural Network. 
+The model of the network was created with Tensorflow 2.0 and Keras as high level API, 
+and was tuned with Scikit-learn library.
+The project is based on MNIST dataset accessible [here](http://yann.lecun.com/exdb/mnist/). 
+Dataset contains pictures of images which represent numbers from 0 to 9, and labels of those numbers.
+There are 4 files, which divide data on 
+images taining set, labels training set, images test set, and labels test set as follows:  
+
+* train-images.idx3-ubyte <br>    
+* train-labels.idx1-ubyte <br>
+* t10k-images.idx3-ubyte <br>
+* t10k-labels.idx1-ubyte <br>
+
+Modified MNIST dataset has been used to build the model. '0' and '1' numbers' pictures has been deleted. 
+Labels has been encoded into 0 and 1, where 0 is a prime number (2, 3, 5 or 7) and 1 is a composite number (4, 6, 8, or 9).
+
+Project contains Jupyter Notebook file named "MNIST_binary_cls_tf.ipynb" with:
+
+* Data exploration <br>
+* Data preparation <br>
+* Data modelling <br>
+* Model assessment (1) <br>
+* Hyperparameters tuning <br>
+* Model assessment (2) <br>
+
+#### To do:
+
+* experiments with model's hyperparameters tuning <br>
+* improve model architecture <br>
+* implement Convolutional Neural Networks <br>
+
+#### Check more:
+[Link to Github](https://github.com/John-smith-889/numbers-images-recognition)
+
+
+
+
+
+
+
+
+
 
 
 
 <br>
-## 2. Housing Prices Modelling in Python
+## 3. Housing Prices Modelling in Python
 
 <span style="color:darkblue"> <em>Python, numpy, pandas, scikit-learn, xgboost, matplotlib, seaborn</em></span>
 
@@ -145,7 +195,7 @@ Solution is prepared with Scikit-learn Multilayer Perceptron (MLP) implementatio
 
 
 <br>
-## 3. Exploratory Data Analysis of Movies Data in Python
+## 4. Exploratory Data Analysis of Movies Data in Python
 
 <span style="color:darkblue"> <em>Python, numpy, pandas, matplotlib</em></span>
 
@@ -177,7 +227,7 @@ Project contains Jupyter Notebook file named "movies_case_eda.ipynb" with:
 
 
 <br>
-## 4. Credit Scoring in R    
+## 5. Credit Scoring in R    
 
 <span style="color:darkblue"> <em> R, MXNetR, dplyr, scorecard, corrplot, fastDummies </em></span>
 
@@ -213,7 +263,7 @@ In credit scoring part following activities were done:
 
 
 <br>
-## 5. Migrations in Europe Visualization in Shiny App    
+## 6. Migrations in Europe Visualization in Shiny App    
 
 <span style="color:darkblue"> <em> R, Shiny, googleCharts, magrittr, devtools </em></span>
 
@@ -249,7 +299,7 @@ In the chart it is possible to discover:
 <br>
 
 Last but not least...
-## 6. Jekyll Blog About Data Science Deployed on GitHub Pages 
+## 7. Jekyll Blog About Data Science Deployed on GitHub Pages 
 
 <span style="color:darkblue"> <em>Ruby, html, css, javascript </em></span>
 
