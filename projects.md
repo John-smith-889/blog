@@ -194,8 +194,57 @@ Solution is prepared with Scikit-learn Multilayer Perceptron (MLP) implementatio
 
 
 
+
 <br>
-## 4. Exploratory Data Analysis of Movies Data in Python
+## 4. Spatial Data Analysis of Taxi Vehicles' Movements in Python
+
+<span style="color:darkblue"> <em>Python, SQL, numpy, pandas, geopandas, shapely, matplotlib </em></span>
+
+#### Project description:
+
+The aim of the project is to analyze spatial data of taxi fleet movements. 
+Analysis include Big Query standard SQL queries, Python code for matching points with polygons, and data visualisation.
+Project is based on dataset accessible on BigQuery [here](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=new_york_taxi_trips&page=dataset). 
+Dataset contains information of taxi vehicles activity in New York in 2014. 
+
+Key research questions are as following: in which day of the week there is highest transits rate, 
+what were the trends of payments during the year if we take under consideration cash and a card,
+what is the most popular customer's pick up place?
+
+To acquire data a few SQL queries were performed on tlc_green_trips_2014, and taxi_zone_geom BigQuery tables. 
+Queries are saved in "queries.sql" in the project repository.
+Variables include pick-up datatime, pick-up longitude, pick-up latitude, payment type and more.
+Polygons data of New York area was downloaded from taxi_zone_geom table.
+
+Project contains also Python script file named "spatial_case_solution.py" with following tasks:
+
+* Import and transform polygons data and points data <br>
+* Match points to polygons with Python's shapely package <br>
+* Check data consistency <br>
+* Compose charts and map chart <br>
+
+
+#### To do:
+* More map charts in the division into particular months  <br>
+* Chart with juxtaposition of all payment profiles
+* Apply code optimization for Python to enable better efficiency (e.g. numba)
+
+#### Check more:
+[Link to Github](https://github.com/John-smith-889/taxi-spatial-data-analysis)
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+## 5. Exploratory Data Analysis of Movies Data in Python
 
 <span style="color:darkblue"> <em>Python, numpy, pandas, matplotlib</em></span>
 
@@ -227,7 +276,7 @@ Project contains Jupyter Notebook file named "movies_case_eda.ipynb" with:
 
 
 <br>
-## 5. Credit Scoring in R    
+## 6. Credit Scoring in R    
 
 <span style="color:darkblue"> <em> R, MXNetR, dplyr, scorecard, corrplot, fastDummies </em></span>
 
@@ -263,7 +312,7 @@ In credit scoring part following activities were done:
 
 
 <br>
-## 6. Migrations in Europe Visualization in Shiny App    
+## 7. Migrations in Europe Visualization in Shiny App    
 
 <span style="color:darkblue"> <em> R, Shiny, googleCharts, magrittr, devtools </em></span>
 
@@ -299,7 +348,7 @@ In the chart it is possible to discover:
 <br>
 
 Last but not least...
-## 7. Jekyll Blog About Data Science Deployed on GitHub Pages 
+## 8. Jekyll Blog About Data Science Deployed on GitHub Pages 
 
 <span style="color:darkblue"> <em>Ruby, html, css, javascript </em></span>
 
