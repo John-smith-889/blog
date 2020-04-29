@@ -5,7 +5,7 @@ categories: [Jekyll]
 tags: ["#html &nbsp; #markdown"]
 comments: true
 ---
-<p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #html &nbsp;  #markdown </em></span> </p>
+<p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #html &nbsp; #markdown &nbsp; #jekyll </em></span> </p>
 
 ![background-picture]({{site.baseurl}}/assets/front-end.png)
 
@@ -492,9 +492,20 @@ Something<sub>text</sub>
 
 
 <br>
+### Latex equations (mathjax)
+
+Depending on the value of $$x$$ the equation $$ f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} $$ may diverge or converge.
+
+$$ f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} $$
+
+<p align="right">  <i> Source: <a href="https://www.overleaf.com/learn/latex/Display_style_in_math_mode" target="_blank" title="https://www.overleaf.com/learn/latex/Display_style_in_math_mode"> overleaf.com</a> </i> </p>
+
+
+<br>
 ### Photo uploading
 
 ![background-picture]({{site.baseurl}}/assets/karina-vorozheeva-unsplash.png)
+
 
 <br>
 ### Annotation
