@@ -506,6 +506,8 @@ $$ f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} $$
 
 ![background-picture]({{site.baseurl}}/assets/karina-vorozheeva-unsplash.png)
 
+<p align="right">  <i> Source: <a href="https://unsplash.com/@_k_arinn" target="_blank" title="https://unsplash.com/@_k_arinn"> unsplash.com </a> </i> </p>
+
 
 <br>
 ### Annotation
