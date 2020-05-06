@@ -5,7 +5,7 @@ categories: [Devops]
 tags: ["#python &nbsp; #virtualenv "]
 comments: true
 ---
-<p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #python &nbsp;  #virtualenv </em></span> </p>
+<p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #python &nbsp; #virtualenv &nbsp; #devops </em></span> </p>
 
 ![background-picture]({{site.baseurl}}/assets/virtualenv.png)
 

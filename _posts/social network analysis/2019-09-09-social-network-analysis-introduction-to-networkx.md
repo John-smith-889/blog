@@ -5,7 +5,7 @@ categories: [Social Network Analysis]
 tags: ["#python &nbsp; #networkx"]
 comments: true
 ---
-<p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #python &nbsp;  #networkx </em></span> </p>
+<p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #python &nbsp; #networkx &nbsp; #social network analysis </em></span> </p>
 
 ![background-picture]({{site.baseurl}}/assets/networkx.png)
 

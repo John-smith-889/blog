@@ -5,7 +5,7 @@ categories: [Space Industry]
 tags: ["#python &nbsp; #satellites &nbsp; #n2yo REST API &nbsp; "]
 comments: true
 ---
-<p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #python &nbsp;  #satellites &nbsp; #n2yo REST API  </em></span> </p>
+<p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #python &nbsp; #satellites &nbsp; #n2yo REST API &nbsp; #space industry </em></span> </p>
 
 ![background-picture]({{site.baseurl}}/assets/Sojuz-TMA.jpg)
 <p align="right"> <span style="font-size: 85%; line-height: 4px; display:block"> <i> Sojuz-TMA on orbit, source: NASA </i> </span> </p>
