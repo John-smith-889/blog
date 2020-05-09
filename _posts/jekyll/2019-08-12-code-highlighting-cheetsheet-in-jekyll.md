@@ -509,6 +509,20 @@ $$ f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} $$
 <p align="right">  <i> Source: <a href="https://unsplash.com/@_k_arinn" target="_blank" title="https://unsplash.com/@_k_arinn"> unsplash.com </a> </i> </p>
 
 
+
+<br>
+### Embedding Plotly chart-studio plot in iframe with plot centering
+
+<div class="container" style="width: 600px; margin-left: -15%; text-align: center;">
+
+<iframe width="900" height="600" frameborder="0" scrolling="no" src="//plotly.com/~Mike555/3.embed"></iframe>
+
+</div>
+<!-- Centering plot - we may use above "margin-left: -15%" or "margin-left: -100px", values depends on chart width-->
+
+
+
+
 <br>
 ### Annotation
 <div class="message">
