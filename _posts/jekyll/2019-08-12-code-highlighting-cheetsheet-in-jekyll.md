@@ -522,6 +522,18 @@ $$ f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} $$
 
 
 
+<br>
+### Embedding Shiny app plot in iframe with plot centering
+
+<div class="container" style="width: 600px; margin-left: -20%; text-align: center;">
+
+<p align="center"><iframe src="https://james-smith-889.shinyapps.io/shiny-migrations-europe-bubblechart/" width="150%" height="680px"></iframe></p>
+
+</div>
+<!-- Centering plot - we may use above "margin-left: -15%" or "margin-left: -125px", values depends on chart width-->
+
+
+
 
 <br>
 ### Annotation
