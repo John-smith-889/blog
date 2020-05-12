@@ -19,8 +19,8 @@ przeprowadzanie symulacji wieloagentowych na grafach, wybór zestawu wierzchołk
 które najlepiej rozprowadzają informacje po grafie, oraz badanie związku 
 statystycznego cech przypisanych do węzłów, ze zdolnością tych węzłów do 
 propagacji informacji. Kod źródłowy wraz ze wskazówkami 
-dotyczącymi instalacji opublikowano w serwisie GitHub na licencji MIT
-<a href="https://github.com/John-smith-889/difpy" target="_blank" title="keyword">[link]</a>.
+dotyczącymi instalacji opublikowano w serwisie GitHub na licencji MIT -
+<a href="https://github.com/John-smith-889/difpy" target="_blank" title="keyword"> DifPy repository</a>.
 
 
 Pakiet DifPy składa się z 12 funkcji zawartych w 4 modułach - module 
@@ -42,6 +42,10 @@ wierzchołków grafu do rozprowadzania informacji. Druga z nich wykorzystuje fun
 oblicza miary wierzchołków, zestawia je z cechami węzłów, tworzy model xgboost, a
 następnie oblicza istotność badanych cech.
 
+Pakiet DifPy napisano z myślą o przeprowadzaniu eksperymentów na grafach reprezentujących rzeczywiste
+sieci społeczne. Prowadzenie eksperymentów symulacyjnych może wymagać odwzorowania danych o sieci,
+którymi dysponujemy, w graf biblioteki NetworkX. Artykuł o podstawach pracy z tą biblioteką można znaleźć tutaj - 
+<a href="https://github.com/John-smith-889/difpy" target="_blank" title="keyword"> Social Network Analysis in Python - Introduction to NetworkX</a>.
 
 ![background-picture]({{site.baseurl}}/assets/difpy-diffusion-on-graphs-in-python/difpy_functions_structure.PNG)
 <p align="center">  <i> Rysunek 1. Struktura pakietu DifPy </i> </p>
@@ -210,7 +214,7 @@ Szansa ta jest obliczana dla każdej relacji między węzłami
 w jądrze symulacji nazwanym "WERE" zaimplementowanym w module
 *simulate.py*. Nazwa "WERE" to akronim od nazw parametrów biorących udział w obliczeniach.
 Pakiet umożliwia wykorzystanie dowolnego własnego równania, zamieniając jądro "WERE" na
-własną funkcją.
+własną funkcję.
 
 ### *draw\_graph()*
 <div style="line-height:50%;"> <br> </div>
@@ -240,10 +244,10 @@ Funkcja wyświetla wykres grafu.
 
 ```python
 dp.draw_graph(G, # graph
-            pos, # position of nodes
-            aware_color = '#f63f89',
-            not_aware_color = '#58f258',
-            legend = True)
+              pos, # position of nodes
+              aware_color = '#f63f89',
+              not_aware_color = '#58f258',
+              legend = True)
 ```
 
 
@@ -271,10 +275,10 @@ wagi połączeń między węzłami, atrybuty węzłów. <br>
 &nbsp; &nbsp; <span style="color:#808080; font-family:Calibri; font-size: 85%"> Input: </span>
 
 ```python
-dp.graph_stats(G, 
-		pos, 
-		show_attr = False, 
-		draw_degree = True,
+dp.graph_stats(G,
+		pos,
+		show_attr = False,
+		draw_degree = True, 
 		draw_graph = False)
 ```
 
@@ -410,12 +414,12 @@ size = G_02.number_of_edges()), 6).reshape(G_02.number_of_edges(),1)
 
 # Add feature
 G_02 = dp.add_feature(G_02,
-                   pos,
-            feature = engagement,
-            feature_type = "engagement",
-            scaling = True,
-            show_attr = True, # show node weights and attributes
-            draw_graph = False)
+		pos,
+		feature = engagement,
+		feature_type = "engagement",
+		scaling = True,
+		show_attr = True, # show node weights and attributes
+		draw_graph = False)
 
 ```
 
