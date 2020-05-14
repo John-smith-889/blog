@@ -239,12 +239,43 @@ Project contains also Python script file named "spatial_case_solution.py" with f
 
 
 
+<br>
+## 5. Data Processing in Python - Repository 
+
+<span style="color:darkblue"> <em>Python, numpy, pandas </em></span>
+
+#### Project description:
+
+The aim of the project is to collect usefull Python code snippets and design small programs for data processing.
+Data processing operations we may divide into insertion, deletion, merging, searching, traversal and sorting.
+Various functions including Python idiomatic expressions were applied to example random data 
+according to repository's author interpretation of operations classification.
+
+Those operations may be applied on various Python data structures. Python script file data-processing.py contains 
+application of data processing operations on most common data structures as follows:
+
+* lists <br>
+* tuples <br>
+* dictionaries <br>
+* ndarrays from Numpy package <br>
+* DataFrames from Pandas package <br>
+
+
+#### To do:
+* Add less common data structures <br>
+
+#### Check more:
+[Link to Github](https://github.com/John-smith-889/python-data-processing)
+
+
+
+
 
 
 
 
 <br>
-## 5. Exploratory Data Analysis of Movies Data in Python
+## 6. Exploratory Data Analysis of Movies Data in Python
 
 <span style="color:darkblue"> <em>Python, numpy, pandas, matplotlib</em></span>
 
@@ -276,7 +307,7 @@ Project contains Jupyter Notebook file named "movies_case_eda.ipynb" with:
 
 
 <br>
-## 6. Credit Scoring in R    
+## 7. Credit Scoring in R    
 
 <span style="color:darkblue"> <em> R, MXNetR, dplyr, scorecard, corrplot, fastDummies </em></span>
 
@@ -310,9 +341,8 @@ In credit scoring part following activities were done:
 
 
 
-
 <br>
-## 7. Migrations in Europe Visualization in Shiny App    
+## 8. Migrations in Europe Visualization in Shiny App    
 
 <span style="color:darkblue"> <em> R, Shiny, googleCharts, magrittr, devtools </em></span>
 
@@ -348,7 +378,7 @@ In the chart it is possible to discover:
 <br>
 
 Last but not least...
-## 8. Jekyll Blog About Data Science Deployed on GitHub Pages 
+## 9. Jekyll Blog About Data Science Deployed on GitHub Pages 
 
 <span style="color:darkblue"> <em>Ruby, html, css, javascript </em></span>
 
