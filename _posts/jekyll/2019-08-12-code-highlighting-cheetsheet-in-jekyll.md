@@ -46,7 +46,6 @@ active{% endif %}" href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a>
 ### Code highlighting in markdown - python code snippet
 
 ``` python
-
 class Singleton:
     def __new__(self):
         print("la")
