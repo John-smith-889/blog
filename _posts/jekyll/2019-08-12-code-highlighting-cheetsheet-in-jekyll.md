@@ -160,6 +160,14 @@ More code
 
 
 <br>
+### Embedding gist code 
+
+<script src="https://gist.github.com/John-smith-889/0f14e8c9f50eba6e7773eb97e9981b08.js"></script>
+
+
+
+
+<br>
 ## 2. Text formatting
 
 
