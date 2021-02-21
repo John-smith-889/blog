@@ -10,8 +10,8 @@ Blog about data science and coding.
 <div style="line-height:20%;"> <br> </div>
 
 ##### © 2019 ENH. This work is licensed under a few licences:
-
 <div style="line-height:0%;"> <br> </div>
+
 ##### 1. CC BY-NC 4.0
 
 ** The textual content of the blog ** is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
