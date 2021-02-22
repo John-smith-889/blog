@@ -1,6 +1,8 @@
 # Everyday normal hacker
 
-Blog about data science and coding.
+Blog about data science and coding
+
+#### [https://john-smith-889.github.io/blog/categories_and_tags](https://john-smith-889.github.io/blog/categories_and_tags)
 
 ## Author
 
