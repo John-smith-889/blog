@@ -9,10 +9,8 @@ Blog about data science and coding
 **John Smith**
 
 ## Licenses
-<div style="line-height:20%;"> <br> </div>
 
 ##### © 2019 ENH. This work is licensed under a few licences:
-<div style="line-height:0%;"> <br> </div>
 
 ##### 1. CC BY-NC 4.0
 
